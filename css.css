@@ -1,0 +1,94 @@
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: linear-gradient(-45deg, #ff9a9e, #a1c4fd, #be55d1, #fbc2eb);
+    background-size: 200% 200%;
+    animation: gradientBG 10s ease infinite;
+
+
+    
+    color: #222;
+    transition: color 0.5s;
+
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+div h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    margin-bottom: -110px;
+}
+form {
+   flex-direction: column;
+    padding: 1.2em 1.5em;
+    box-shadow: 16px 4px 16px 4px rgba(160, 160, 160, 0.13);
+    min-width: 260px;
+    max-width: 340px;
+    width: 100%;
+    backdrop-filter:blur(100px);
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgba(255, 255, 255, 0.171);
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 0.5em 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    background: #f7fafd;
+    transition: border 0.3s, background-color 0.3s, background 0.3s, transform 0.2s;
+    box-sizing: border-box;
+}
+
+button,[type="submit"] {
+    background: linear-gradient(90deg, #fa7fc2 0%, #e100ff 100%);
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); 
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    padding: 0.6em 1.8em;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    transform: translateY(-1px) scale(1.2);
+    align-items: center;
+    
+}
+
+
+form label {
+    align-self: flex-start;
+    font-weight: 500;
+    color: #ffffff;
+} 
