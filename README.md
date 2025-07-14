@@ -19,4 +19,25 @@ This repository includes worksheets covering:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone 
+   git clone https://github.com/Biplav-poudel/first-repo.git
+   cd workshit 
+   
+# 🧮 Calculator Web App
+
+A simple and responsive Calculator web app built using **HTML**, **CSS**, and **JavaScript**. The project is modularized using JavaScript worksheets to improve readability and maintainability.
+
+## 🚀 Features
+
+- Basic arithmetic operations: Add, Subtract, Multiply, Divide
+- Clear display / backspace / decimal support
+- Responsive layout for desktop and mobile
+- Clean and minimal user interface
+  
+1. Clone the repository to your local machine:
+ ```bash
+git clone https://github.com/Biplav-poudel/first-repo.git
+cd calculator
+
+
+
+   
